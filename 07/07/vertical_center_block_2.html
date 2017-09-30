@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Занятие 2 - HTML DOP 1</title>
+    <meta charset="utf-8">
+<style>
+
+/*
+  Задача - выравнять по вертикали и горизонтали блок  .child
+1. Блоку .table задаем свойство display: table;
+2. Блоку .child задаем свойства
+            display: table-cell;
+            vertical-align: middle;
+
+*/
+    .table {
+        display: table;
+
+     }
+
+    .cell {
+        height: 70vh;
+        border: 1px solid tan;
+
+     }
+    .child {
+        display: table-cell;
+        vertical-align: middle;
+        background: #e2e2e2;
+        padding: 10px;
+        margin: 0 20px;
+
+    }
+</style>
+    </head>
+<body>
+
+<div class="table">
+   <div class="cell">
+      <div class="child">
+         <h2>Hello from child</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, sint!</p>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

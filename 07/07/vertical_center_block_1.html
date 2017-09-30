@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Занятие 2 - HTML DOP 1</title>
+    <meta charset="utf-8">
+<style>
+/*
+  Задача - выравнять по вертикали и горизонтали блок  .child
+1. Выравнивание по горизонтали - тут все просто - надо блоку .parent
+    задать свойство
+       text-align: center;
+
+2. Выравнивание по вертикали
+  Идея - Создать рядом с блоком .child sibling  inline-блок,
+          который по высоте растянуть на высоту родителя
+          Превратить блок .child в inline-block и тогда можно будет ему
+          задать свойство vertical-align: middle;
+Реализация
+ - Создаем псевдоэлемент  .parent::before с свойствами
+         .parent::before {
+              content: '';
+              height: 100%;
+              display: inline-block;
+              vertical-align: middle;
+              width: 0;
+         }
+- Элемент .child превращаем в inline-block и выравниваем его вертикально
+         display: inline-block;
+        vertical-align: middle;
+
+
+ */
+.parent::before {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+}
+.child{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.parent {
+    width: 50%;
+    height: 60vh;
+    border: 1px solid tan;
+}
+ .child {
+    background: #e2e2e2;
+    padding: 20px;
+
+
+}
+</style>
+    </head>
+<body>
+
+<div class="parent">
+    <div class="child">
+        <h2>Hello from child</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, sint!</p>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

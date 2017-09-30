@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<title>Занятие 6 - HTML advanced свойство vertical-align</title>
+<meta charset="utf-8">
+<style>
+
+	p{
+		border:1px solid red;
+		font-size:50px;
+		margin:0; padding:0;
+	}
+	.inline{
+		color:red;
+		font-size:60px;
+	}
+	.im{
+		
+	}
+	.block{
+		font-size:20px;
+	}
+</style>
+</head>
+<body>
+		<p>
+			<!-- <img src="img/img2.jpg">  -->
+			<span class="inline">this is SPAN</span>
+			<img  class="im" src="img/img1.jpg">	
+			<span class="block">this is<br>block text text text text text text text text text text text</span>
+		</p>
+<!--
+1. Если задать img c class="im" свойство vertical-align:top;
+   то выравнивание будет по верхней границе самого большого 
+   элемента в строке - то есть по верхней границе текста в span
+   
+2. Если в строке появится элемент с высотой больше, чем
+	высота текста в span (раскомментировать первое изображение)
+	то выравнивание img c class="im" со свойством vertical-align:top;
+	будет по верхней границе первого изображения
+	
+3. 	Если задать img c class="im" свойство vertical-align:text-top;
+	то увидим, что это изображение выравнивается по границе текста
+	в строке - то есть по верхней границе текста в элементе SPAN
+ -->		
+		
+</body>
+</html>
