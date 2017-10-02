@@ -1,0 +1,114 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;}
+body {
+    padding: 50px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;}
+h1{
+color: red;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.box {
+    margin: auto;
+    width: 800px;
+    min-width: 300px;
+    border: 1px solid white;
+    /*height: 750px;*/
+}
+.box__item_1{
+    padding: 57px;
+    position:fixed ;
+    border: 1px solid #92d050;
+    background: #92d050;
+    width: 200px;
+    text-align: center;
+    height: 143px;
+    margin-top: 0.5px;
+
+}
+.box__item_2{
+    padding: 57px;
+    display: block;
+    position:fixed ;
+    border: 1px solid #ffc000;
+    background: #ffc000;
+    width: 400px;
+   margin-left: 200px;
+    margin-top: 0.5px;
+    height: 143px;
+}
+.box__item_3{
+    padding: 57px;
+    position:fixed ;
+    border: 1px solid #92d050;
+    background:#92d050;
+    width: 198px;
+    margin-left:600px;
+    height: 143px;
+    margin-top: 0.5px;
+}
+.box__item_4{
+    padding: 57px;
+    position: fixed;
+    border: 1px solid #b1fff5;
+    background: #b1fff5;
+    width: 400px;
+    height: 143px;
+    margin-top: 144px
+}
+.box__item_5{
+    padding: 57px;
+    position: fixed;
+    border: 1px solid #7030a0;
+    background: #7030a0;
+    width: 200px;
+    height: 143px;
+    margin-top: 144px;
+    margin-left: 400px;
+}
+.box__item_6{
+    padding: 57px;
+    position: fixed;
+    border: 1px solid #a6a6a6;
+    background: #a6a6a6;
+    width: 200px;
+    height: 143px;
+    margin-top: 122px;
+    margin-left: 598px;
+}
+.box__item_7 {
+    padding: 57px;
+    position: fixed;
+    border: 1px solid #ec767c;
+    background: #ec767c;
+    width: 200px;
+    height: 143px;
+    margin-top: 265px;
+
+}
+.box__item_8 {
+    padding: 57px;
+    position: fixed;
+    border: 1px solid #7030a0;
+    background: #7030a0;
+    width: 200px;
+    height: 143px;
+    margin-top: 265px;
+    margin-left: 200px;
+}
+.box__item_9 {
+    padding: 57px;
+    position: fixed;
+    border: 1px solid #92d050;
+    background: #92d050;
+    width: 400px;
+    height: 143px;
+    margin-top: 265px;
+    margin-left: 398px;}
+.box-item__title{
+    color: white;
+    text-align: center;
+}
